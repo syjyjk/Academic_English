@@ -8,9 +8,6 @@ from toolkits.options import choose_voice
 language = 'English' # 'English'/ 'Chinese' / 
 voice = choose_voice(language=language)  
 
-
-
-
 def demo0():
   text = '北冥有鱼，其名为鲲,鲲之大，一锅炖不下'
   audio_name = '逍遥游.wav'

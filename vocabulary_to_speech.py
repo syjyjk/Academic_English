@@ -1,5 +1,4 @@
 #coding=utf-8
-
 from toolkits.read_appkey_and_token import read_appkey, read_token
 from toolkits.verify import show_appkey_and_token
 from toolkits.text2speech_api_from_aliyun import text2speech

@@ -13,4 +13,7 @@
 任何盈利目的利用均应遭受谴责。
 
 part 1: Academic Vocabulary and Listening
+利用阿里云 语音合成 api 将例句转换为较为流畅的语音。
 
+1. 按照说明文档所示，注册阿里云，获得Appkey 与 Token.
+2. 打开vocabulary_to_speech.py, 按照仿照demo()函数，配置文本语音转换细节。

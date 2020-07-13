@@ -1,19 +1,18 @@
-这个 Repository 是为了以方便而高效的方式整理日常学习内容 而创建的。
-其中的许多代码都并非是创建者的原创内容。
-我将尽可能表明引用以及出处。
-由于一些疏忽原因，可能会导致有些引用被遗漏，如果有这种情况发生，请那些原作者原谅并告知我。
-此外这个整理内容中不可避免的会涉及到引用自Oxford,Collins, Merriam Webster等词典的释义与例句。
-虽然这些内容是作为收集与整理的学习资料，
-但作为上传者不是十分明确是否这种交流活动涉及到侵犯相应词典公司的合法权益。
-如果这种行为明确违反了相关法律规定，请各位告知我，我会删除对应侵权内容。
-这份资料的整理更多得益于Internet上各种资源提供者们的付出,
-相较于他们的贡献,作为整理者只不过将这些信息汇集到一起。
-这个工作虽然从贡献上来讲微不足道，但仍希望它的存在能够帮助到一些人，实现一些微不足道的意义。
-综上，这份整理内容只能限于学习者个人以学习为目的的交流。
-任何盈利目的利用均应遭受谴责。
-
-part 1: Academic Vocabulary and Listening
+part 1: Convert a cinto speech using aliyun api
 利用阿里云 语音合成 api 将例句转换为较为流畅的语音。
+a. 开通阿里云语音合成服务
+```
+1. 登录 https://www.aliyun.com/， 实名注册，开通 智能语音交互产品中的语音合成服务（收费标准3.5元每千次调用）。复制并保存用户的  AccessToken信息。
+2. 创建 “语音合成/语音识别” 项目，复制并保存项目的Appkey
+```
+b. 在本地安装 阿里云开发包 实现接口调用(需要 Python3 环境下执行下述命令)
+```
+1. 确认已经安装Python 包管理工具setuptools，如果没有安装，执行以下命令：
+pip install setuptools
+2. 下载开发包工具并将压缩包解压，进入文件夹目录：
+http://download.taobaocdn.com/freedom/33762/compress/alibabacloud-nls-python-sdk.zip
+3. 在开发包工具文件夹内执行以下命令：
+python setup.py bdist_egg
+python setup.py install
+```
 
-1. 按照说明文档所示，注册阿里云，获得Appkey 与 Token.
-2. 打开vocabulary_to_speech.py, 按照仿照demo()函数，配置文本语音转换细节。

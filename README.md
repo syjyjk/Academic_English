@@ -19,6 +19,6 @@ python setup.py bdist_egg
 python setup.py install
 ```
 
-c.参照 [sentense_to_speech.py](./sentense_to_speech.py) 将英文句子转写成wav格式的音频。转换效果可参见[demo].
+c.参照 [sentense_to_speech.py](./sentense_to_speech.py),以此为例将英文句子转写成wav格式的音频。转换效果可参见[demo/](demo).
 
 由于语音合成服务要求每个句子不能超过300个英文字符，因此当输入文本总字符数超过300时，会将这句话按照文本中的分隔符进行分割。优先采用句号进行分割，若分割后仍然存在超过300字符的子句，则对此子句采用逗号分割，如果此时还存在超过300英文字符的子句，最终会利用该子句中which, what, that 等从句连接词进行分割 。

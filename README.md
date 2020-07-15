@@ -1,5 +1,4 @@
-part 1: Convert a cinto speech using aliyun api
-利用阿里云 语音合成 api 将例句转换为较为流畅的语音。
+part 1: 利用阿里云 语音合成 api 将例句转换为较为流畅的语音。
 
 a. 开通阿里云语音合成服务
 ```
@@ -22,3 +21,8 @@ python setup.py install
 c.参照 [sentense_to_speech.py](./sentense_to_speech.py),以此为例将英文句子转写成wav格式的音频。转换效果可参见[demo](demo/).
 
 由于语音合成服务要求每个句子不能超过300个英文字符，因此当输入文本总字符数超过300时，会将这句话按照文本中的分隔符进行分割。优先采用句号进行分割，若分割后仍然存在超过300字符的子句，则对此子句采用逗号分割，如果此时还存在超过300英文字符的子句，最终会利用该子句中which, that 等从句连接词进行分割 。
+
+---------
+part 2: 学术词汇整理
+将整理好的学术词汇整理到[academic_vocabulary.txt](academic_vocabulary)中，调用[academic_vocabulary_to_sppech.py](academic_vocabulary_to_sppech.py)文件，将相应单词、单词的中英文释义、单词例句整理到[academic_vocabulary_mp3](academic_vocabulary_mp3)文件夹中。
+

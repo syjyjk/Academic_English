@@ -1,9 +1,6 @@
-\documentclass{book}
-\usepackage{xeCJK}
-\begin{document}
 verb:::
 
-？indicate:
+?indicate:
 *point out; show that something is true or exists.
 >The fossil insect record indicates that during the last 1400 years, regional climates have changed abruptly.
 
@@ -21,7 +18,8 @@ verb:::
 *bring or put into operation or use
 >Difficulties have arisen when attempting to apply existing rules to new online activities.
 ?apply:
-*apply to something[向某物施加某种作用或施以某种物质]
+*apply to something
+[向某物施加某种作用或施以某种物质]
 >smooth over with a cloth, applying even pressure.
 ?commence:
 *begin
@@ -33,7 +31,8 @@ noun:::
 >indicate an issue, problem, or controversy in the filed of study.
 
 ?synopsis:
-*a brief summary or general survey of something. [提要，概要]
+*a brief summary or general survey of something. 
+[提要，概要]
 ?abstract:
 *a summary or statement of the content of a book, article, or formal speech
 ?ovewview:
@@ -43,7 +42,3 @@ noun:::
 *the state of not being enough or good enough; a lack of something.
 ?desirability
 *the quality of being worth having or doing
-
-
-
-\end{document}

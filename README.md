@@ -24,5 +24,5 @@ c.参照 [sentense_to_speech.py](./sentense_to_speech.py),以此为例将英文�
 
 ---------
 part 2: 学术词汇整理
-将整理好的学术词汇整理到[academic_vocabulary.txt](academic_vocabulary)中，调用[academic_vocabulary_to_sppech.py](academic_vocabulary_to_sppech.py)文件，将相应单词、单词的中英文释义、单词例句整理到[academic_vocabulary_mp3](academic_vocabulary_mp3)文件夹中。
+将整理好的学术词汇整理到[academic_vocabulary.txt](academic_vocabulary.txt)中，调用[academic_vocabulary_to_sppech.py](academic_vocabulary_to_speech.py)文件，将相应单词、单词的中英文释义、单词例句整理到[academic_vocabulary_mp3](./academic_vocabulary_mp3/)文件夹中。
 

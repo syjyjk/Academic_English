@@ -22,11 +22,11 @@ def sentence_to_speech(text, audio_name, language='English'):
       print(len(sub_sentence),sub_sentence)
       save_name = os.path.splitext(audio_name)[0] + str(count + 1)+ os.path.splitext(audio_name)[1]
       create_folder_for_file(save_name)
-      text2speech(sub_sentence, save_name, voice=voice,  volumn=50, speech_rate=-120,pitch_rate=0)
+      text2speech(sub_sentence, save_name, voice=voice,  volumn=50, speech_rate=-300,pitch_rate=0)
   elif len(sub_sentence_list)==1:
     save_name = audio_name 
     create_folder_for_file(save_name)
-    text2speech(sub_sentence_list[0], save_name, voice=voice,  volumn=50, speech_rate=-120,pitch_rate=0)
+    text2speech(sub_sentence_list[0], save_name, voice=voice,  volumn=50, speech_rate=-300,pitch_rate=0)
   else:
     pass
 

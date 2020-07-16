@@ -3,6 +3,8 @@ import wave
 import struct
 import numpy as np
 import matplotlib.pyplot as plt
+from toolkits.os_operations import create_folder_for_file
+
 
 def concatenate_sentences(slist,radio_name ,length=40000,length0=5000):
   #Reference:https://www.cnblogs.com/xingshansi/p/6799994.html
@@ -27,13 +29,17 @@ def concatenate_sentences(slist,radio_name ,length=40000,length0=5000):
     for v in radio:
       ff.writeframes(struct.pack('h', int(v * 64000 / 2)))
 
-pos = 'verb'
-path0 = 'academic_vocabulary_mp3/{}'.format(pos)
-vocabularys = os.listdir(path0)
-for vocabulary in vocabularys:
-  path1 = os.path.join(path0, vocabulary)
-  item_list = os.listdir(path1)
-  path2 = [os.path.join(path1,item) for item in item_list]
-  radio_name = '{}.mp3'.format(vocabulary)
-  concatenate_sentences(path2, radio_name)
+if __name__=='__main__':
+  path_base = 'academic_vocabulary_mp3_sub_sentences'
+  poss = os.listdir(path_base)
+  for pos in poss:
+    path0 = 'academic_vocabulary_mp3_sub_sentences/{}'.format(pos)
+    vocabularys = os.listdir(path0)
+    for vocabulary in vocabularys:
+      path1 = os.path.join(path0, vocabulary)
+      item_list = os.listdir(path1)
+      path2 = [os.path.join(path1,item) for item in item_list]
 
+      radio_name = os.path.join('academic_vocabulary_mp3','{}_{}.mp3'.format(pos, vocabulary))
+      create_folder_for_file(radio_name)
+      concatenate_sentences(path2, radio_name)

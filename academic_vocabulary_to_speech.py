@@ -19,12 +19,14 @@ def vocabulary_to_sentences():
           meaning_count = meaning_count + 1
           meaning = item.strip('*').strip()
           collect[pos][word]['meaning'+str(meaning_count)] = meaning 
+          example_count = 0
         if item[0] == '[':
           zh_meaning = item.strip('[').strip().strip(']').strip()
           collect[pos][word]['zhmeaning'+str(meaning_count)] = zh_meaning 
         if item[0] == '>':
+          example_count = example_count + 1
           example = item.strip('>').strip()
-          collect[pos][word]['exmaple'+str(meaning_count)] = example
+          collect[pos][word]['exmaple'+str(meaning_count)+'_'+str(example_count)] = example
 
     for pos in collect.keys():
       pos_dict = collect[pos]

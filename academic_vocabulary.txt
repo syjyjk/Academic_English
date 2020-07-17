@@ -1,4 +1,9 @@
 verb:::
+?assist
+help (someone), typical by doing a share of the work
+
+?confirm:
+*to state or show that something is definitely true or correct, especially by providing evidences
 
 ?indicate:
 *point out; show that something is true or exists.
@@ -24,6 +29,36 @@ verb:::
 ?commence:
 *begin
 
+?set out:
+*aim or intend to do something
+>This study set out to provide different perspectives on the environment and sustainability.
+>our staff set out to determine what part our organization might play in solving this problem.
+
+?argue:
+*give reasons or cite evidence in support of an idea, action, or theory, typically with the aim of persuading others to share one's opinion
+>Sociologists argue that inequalities in industrial societies are being reduced.
+_社会科学家提出证据认为工业社会中的不平等现象正在减少。
+
+?assess:
+*evaluate or estimate the nature, ability, or equality of
+>It is by no means easy to assess the extent to which animals experience pain, distress and suffering.
+
+?evaluate:
+*form an idea of the amount, number, or value of; assess
+*find a numerical expression or equivalent for (an equation, formula, or function)
+
+?contribute to
+*help to cause or bring about
+>the government imposed a tax on fuels which contributed to global warming.
+
+?make no difference to
+*have no effect on a person or situation
+
+?emerge
+*move out of or away from something and come into view; become apparent, important, or prominent
+
+
+
 noun:::
 
 ?controversy:
@@ -38,7 +73,63 @@ noun:::
 ?ovewview:
 *a general description or an outline of something.
 
-?inadequacy
+?inadequacy:
 *the state of not being enough or good enough; a lack of something.
 ?desirability
 *the quality of being worth having or doing
+
+?section:
+*a seperate part of a book, document, website, et cetera.
+>In research papers, conclusions should include sections on the significance of the findings and on recommendation for future work.
+>The next sections of this chapter trace the main developments in interpretive thinking after 1920.
+
+?impact:
+*the effect or influence of one person, thing, or action, on another; the powerful effect that something has on somebody or something.
+>Our regional measures have had a significant impact on unemployment.
+*the action of one object hitting another; the force with which this happens
+
+?literature:
+*books and writings published on a particular subject
+>This peer reviewed literature
+
+?issue:
+*an important topic or problem for bebate or discussion;
+>The issue of global warming
+
+?insight
+*an understanding of a particular situation or thing
+>This discussion offers some insight into this issue.
+
+?onset
+*the beginning of something, especially something unpleasant
+>Only after the onset of the recession in 2008 did a clear policy divide on economic issues appear.
+
+?divide
+*a wide divergence between two groups, typically producing tension or hostility
+>there was a still profound cultural divide between the parties.
+*a boundary between two things
+symbolically, the difference of sex is a divide.
+
+?predictor:
+*something that can help to show accurately what will happen.
+>Small body size at birth appears to be an important predictor for long-term health.
+
+?duration
+*the time during which somethig continues
+>The next phase is relatively short, with an average duration of 2-4 hours.
+
+
+adj:::
+?anecdotal:
+*based on personal accounts rather than facts or research, and possibly not true or accurate
+Before the study, evidence of X was purely anecdotal.
+
+?comprehensive
+*including or dealing with all or nearly all elements or aspects of something
+
+?empirical:
+*based on, concerned with, or verifiable by observation or experience rather than theory or pure logic
+
+?representative:
+*typical of a class, group, or body of opinion
+
